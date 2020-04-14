@@ -1,0 +1,11 @@
+.center{
+    display: flexbox;
+    flex-direction: row;
+}
+
+@media (max-width: 767px) { 
+
+h1{
+    font-size: 1.5rem;
+}
+}
