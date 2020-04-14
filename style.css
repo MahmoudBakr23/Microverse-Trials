@@ -1,8 +1,26 @@
-.center{
-    display: flexbox;
-    flex-direction: row;
+h1{
+    color: gray;
+    margin: 25px;
 }
-
+li{
+    list-style: none;
+}
+#nav-bar{
+    float: right;
+}
+.nav-link{
+    text-decoration: none;
+    color:gray;
+    margin: 50px 25px;
+}
+#form{
+    text-align: center;
+}
+#video{
+    float: right;
+    width: 500px;
+    height: 300px;
+}
 @media (max-width: 767px) { 
 
 h1{
